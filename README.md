@@ -24,6 +24,42 @@
   - [`yonghwan/`](yonghwan/)
   - [`yuseong/`](yuseong/)
 
+## 기술 스택
+
+괄호 안은 처음 쓰는 마일스톤입니다. 각 기술의 도입 이유는 노션 "온보딩" 페이지에 있습니다.
+
+- **언어와 빌드**
+  - Java 21, Spring Boot 3.5.x
+  - Gradle Kotlin DSL(버전 카탈로그 `libs.versions.toml`)
+  - springdoc-openapi(Swagger UI), ArchUnit(M0)
+- **데이터 저장**
+  - PostgreSQL(메이저 버전은 M0에서 정합니다)
+  - JPA, QueryDSL, Flyway
+  - AWS S3(M1): 행사 이미지 저장
+- **Redis**
+  - Redis 7(M1~): 토큰 블랙리스트, 캐시, rate limit, 쿠폰 재고
+  - Redisson(M2): 분산 락
+  - Lua 스크립트(M3): 원자적 좌석 선점
+  - ZSet(M5, M8): 대기열, 인기 랭킹
+- **메시징과 신뢰성**
+  - Kafka 3.9(KRaft, M3~)
+  - Outbox 패턴, 멱등 컨슈머, DLT, Saga(M3)
+  - Resilience4j, mock PG 서버(M3)
+- **인증과 화면**
+  - Spring Security, OAuth2 Client(M1): 소셜 로그인 제공자는 미정입니다.
+  - SSE와 React(Vite)(M5~): 화면의 소유 방식은 미정입니다.
+- **테스트와 부하**
+  - Testcontainers
+  - k6(M4~), Toxiproxy(M6)
+- **모니터링**
+  - Micrometer, Prometheus, Grafana(M4~)
+  - OpenTelemetry(M7)
+- **확장 단계**
+  - Elasticsearch(M8, M11), Spring Batch(M10), ShedLock(M1~), Hibernate Envers(M11)
+- **인프라와 협업 도구**
+  - Docker Compose(profile 방식, M0~), GitHub Actions(CI, M0~)
+  - AWS EC2, Terraform, k3s, Helm, Jenkins(CD)(M12): 클라우드의 소유 방식과 Helm 범위는 미정입니다.
+
 ## 처음 읽을 문서
 
 1. [`docs/milestones/`](docs/milestones/README.md): 마일스톤별 작업 단위와 완료 조건
