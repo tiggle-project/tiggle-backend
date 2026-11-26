@@ -2,7 +2,7 @@
 
 티켓 예매 백엔드입니다. 같은 조건에서 동시성 제어 방식 다섯 가지(비관적 락, 낙관적 락, Redisson 분산 락, Redis Lua, 대기열+Lua+Outbox+Kafka)를 비교하고, 장애를 주입해서 결과를 검증합니다.
 
-팀원 4명이 도메인을 나누지 않고 각자 프로젝트 전체를 구현합니다. 마일스톤마다 "다음 마일스톤의 기술 스터디 → 각자 구현 → 회고"를 반복합니다.
+팀원 6명이 도메인을 나누지 않고 각자 프로젝트 전체를 구현합니다. 마일스톤마다 "다음 마일스톤의 기술 스터디 → 각자 구현 → 회고"를 반복합니다.
 
 ## 저장소 구조
 
@@ -19,8 +19,10 @@
   - [`loadtest/`](loadtest/): 공용 k6 시나리오와 불변식 검사기
   - `.github/`: PR 템플릿과 CODEOWNERS
 - **팀원별 폴더**: 각자의 구현이 들어갑니다. 폴더 안의 구성은 [`docs/milestones/m0.md`](docs/milestones/m0.md)의 작업으로 각자 만듭니다.
+  - [`eunhyeon/`](eunhyeon/)
   - [`jeonggyu/`](jeonggyu/)
   - [`junhyeok/`](junhyeok/)
+  - [`siyeong/`](siyeong/)
   - [`yonghwan/`](yonghwan/)
   - [`yuseong/`](yuseong/)
 

@@ -14,7 +14,7 @@ AI 코딩 에이전트와 함께 작업할 때 따르는 작업 규칙입니다.
 
 ### 경로
 
-원문의 경로는 저장소 하나를 한 사람이 구현하는 구조를 전제로 합니다. Tiggle은 4명이 각자 폴더에서 같은 작업을 구현하므로 아래처럼 바꿔 읽어 주세요.
+원문의 경로는 저장소 하나를 한 사람이 구현하는 구조를 전제로 합니다. Tiggle은 6명이 각자 폴더에서 같은 작업을 구현하므로 아래처럼 바꿔 읽어 주세요.
 
 - 이슈별 핸드오프: `docs/handoff/issue-{번호}-handoff.md` → `<자기 폴더>/docs/handoff/issue-{번호}-handoff.md`
   - 예: `jeonggyu/docs/handoff/issue-12-handoff.md`

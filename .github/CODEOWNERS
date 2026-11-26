@@ -1,8 +1,8 @@
 # 초안입니다. 공용 영역의 확인 범위는 README의 "협업 규칙"에서 정할 예정입니다.
-# 아래 안은 공용 영역에 팀 전원을 지정합니다. 팀원별 폴더는 지정하지 않습니다. 폴더 주인이 곧 PR 작성자여서, Code Owner 승인 규칙을 켜면 스스로 승인할 수 없어 머지가 막히기 때문입니다.
-# GitHub 아이디가 정해지면 아래 주석을 풀고 @아이디를 채워 주세요.
+# 공용 영역에 팀 전원을 지정합니다. 팀원별 폴더는 지정하지 않습니다. 폴더 주인이 곧 PR 작성자여서, Code Owner 승인 규칙을 켜면 스스로 승인할 수 없어 머지가 막히기 때문입니다.
+# 아이디 순서는 폴더 이름 순서(eunhyeon, jeonggyu, junhyeok, siyeong, yonghwan, yuseong)를 따릅니다.
 
-# /docs/      @jeonggyu-id @junhyeok-id @yonghwan-id @yuseong-id
-# /specs/     @jeonggyu-id @junhyeok-id @yonghwan-id @yuseong-id
-# /loadtest/  @jeonggyu-id @junhyeok-id @yonghwan-id @yuseong-id
-# /.github/   @jeonggyu-id @junhyeok-id @yonghwan-id @yuseong-id
+/docs/      @gkdmsgus @JeongGyul @ddo0122 @si-zero @wjddydghks @yousung1020
+/specs/     @gkdmsgus @JeongGyul @ddo0122 @si-zero @wjddydghks @yousung1020
+/loadtest/  @gkdmsgus @JeongGyul @ddo0122 @si-zero @wjddydghks @yousung1020
+/.github/   @gkdmsgus @JeongGyul @ddo0122 @si-zero @wjddydghks @yousung1020
